@@ -46,7 +46,14 @@ It allows users to **browse events, register, manage favorites, and view their d
 - `/dashboard` → User dashboard (personal data only)  
 - `/favorites` → Favorites/bookmarked events  
 - `/admin-login` → Admin login page  
-- `/admin-dashboard` → Admin dashboard (all users + registrations)  
+- `/admin-dashboard` → Admin dashboard (all users + registrations)
+
+
+## Deployment
+
+The project is deployed live using **Netlify**.  
+You can access the application here: [Live Demo](https://celadon-puffpuff-7bc148.netlify.app)
+
 
 ---
 
