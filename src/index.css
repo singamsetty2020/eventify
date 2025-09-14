@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* src/index.css */
+.hover-shadow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15) !important;
+  transition: 0.3s;
+}
+
+/* Hero carousel image */
+.hero-carousel-img {
+  height: 350px;   /* reduced hero height */
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .hero-carousel-img {
+    height: 220px;
+  }
+}
+
+/* Hero text smaller */
+.hero-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.hero-subtext {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Custom smaller button */
+.btn-custom {
+  padding: 0.3rem 0.8rem;   /* reduce height & length */
+  font-size: 0.85rem;       /* small text */
+  border-radius: 0.3rem;
+  width: auto;              /* only as wide as text */
+  display: inline-block;
+}
+
+
+
+/* Smooth transition for all hoverable elements */
+.card, .btn, .navbar a, .carousel-item img {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Event cards hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.8rem 1.5rem rgba(0,0,0,0.15) !important;
+}
+
+/* Button hover */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+}
+
+/* Navbar links hover */
+.navbar a:hover {
+  color: #ffd700 !important;  /* golden color on hover */
+  transform: scale(1.1);
+}
+
+/* Carousel image hover */
+.carousel-item img:hover {
+  filter: brightness(0.9);
+  transform: scale(1.02);
+}
+
+/* Hero Section */
+.hero-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.hero-subtext {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+section.bg-primary {
+  background: linear-gradient(135deg, #007bff, #4facfe);
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Browse button */
+.hero-title + .hero-subtext + a.btn {
+  padding: 6px 18px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-title + .hero-subtext + a.btn:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+/* Carousel */
+.hero-carousel-img {
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel-caption {
+  transition: opacity 0.3s ease;
+}
+
+.carousel-item:hover .carousel-caption {
+  opacity: 1;
+}
+
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}

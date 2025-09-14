@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Tech Talk: AI in 2025",
+    "description": "A talk on recent AI trends, ethics, and use-cases for engineers.",
+    "category": "Technology",
+    "date": "2025-10-15T18:00:00",
+    "venue": "Online (Zoom)",
+    "deadline": "2025-10-14",
+    "image": "https://picsum.photos/seed/ai/800/400"
+  },
+  {
+    "id": "2",
+    "title": "Intercollege Football Match",
+    "description": "A friendly football match between local colleges.",
+    "category": "Sports",
+    "date": "2025-11-01T09:00:00",
+    "venue": "Main Grounds",
+    "deadline": "2025-10-30",
+    "image": "https://picsum.photos/seed/football/800/400"
+  },
+  {
+    "id": "3",
+    "title": "Music Fiesta Night",
+    "description": "An evening of live band performances and open mics.",
+    "category": "Music",
+    "date": "2025-12-05T19:30:00",
+    "venue": "Auditorium",
+    "deadline": "2025-12-03",
+    "image": "https://picsum.photos/seed/music/800/400"
+  },
+  {
+    "id": "4",
+    "title": "Cultural Fest: Colors of India",
+    "description": "Dance, drama and cultural exhibitions celebrating regional arts.",
+    "category": "Cultural",
+    "date": "2025-10-25T16:00:00",
+    "venue": "College Lawn",
+    "deadline": "2025-10-22",
+    "image": "https://picsum.photos/seed/culture/800/400"
+  },
+  {
+    "id": "5",
+    "title": "Web Dev Workshop - React Basics",
+    "description": "Hands-on workshop for beginners to build a React app.",
+    "category": "Workshops",
+    "date": "2025-09-30T11:00:00",
+    "venue": "Computer Lab 2",
+    "deadline": "2025-09-29",
+    "image": "https://picsum.photos/seed/react/800/400"
+  },
+  {
+    "id": "6",
+    "title": "Startup Pitch Day",
+    "description": "Pitch your startup idea to a panel of mentors and investors.",
+    "category": "Technology",
+    "date": "2025-11-20T14:00:00",
+    "venue": "Conference Hall",
+    "deadline": "2025-11-15",
+    "image": "https://picsum.photos/seed/startup/800/400"
+  },
+  {
+    "id": "7",
+    "title": "Solo Singing Competition",
+    "description": "Showcase your singing talent in this open mic competition.",
+    "category": "Music",
+    "date": "2025-10-28T17:00:00",
+    "venue": "Auditorium Stage",
+    "deadline": "2025-10-25",
+    "image": "https://picsum.photos/seed/singing/800/400"
+  },
+  {
+    "id": "8",
+    "title": "Dance Battle 2025",
+    "description": "Intercollege dance competition with freestyle and group performances.",
+    "category": "Cultural",
+    "date": "2025-11-10T18:30:00",
+    "venue": "Open Air Theater",
+    "deadline": "2025-11-07",
+    "image": "https://picsum.photos/seed/dance/800/400"
+  },
+  {
+    "id": "9",
+    "title": "Karate Championship",
+    "description": "Martial arts competition with sparring and demonstration rounds.",
+    "category": "Sports",
+    "date": "2025-12-12T10:00:00",
+    "venue": "Indoor Sports Complex",
+    "deadline": "2025-12-09",
+    "image": "https://picsum.photos/seed/karate/800/400"
+  },
+  {
+    "id": "10",
+    "title": "Drama Play: Modern Ramayana",
+    "description": "A modern twist on the Ramayana performed by college students.",
+    "category": "Cultural",
+    "date": "2025-11-25T19:00:00",
+    "venue": "Auditorium Hall",
+    "deadline": "2025-11-22",
+    "image": "https://picsum.photos/seed/drama/800/400"
+  },
+  {
+    "id": "11",
+    "title": "Coding Contest 2025",
+    "description": "Competitive programming challenge for all coders.",
+    "category": "Technology",
+    "date": "2025-12-01T09:30:00",
+    "venue": "Computer Lab 1",
+    "deadline": "2025-11-29",
+    "image": "https://picsum.photos/seed/coding/800/400"
+  },
+  {
+    "id": "12",
+    "title": "Cooking Competition",
+    "description": "Bring out your inner chef and cook live for the audience.",
+    "category": "Cultural",
+    "date": "2025-10-30T15:00:00",
+    "venue": "Canteen Lawn",
+    "deadline": "2025-10-28",
+    "image": "https://picsum.photos/seed/cooking/800/400"
+  }
+]
